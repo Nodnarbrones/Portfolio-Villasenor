@@ -1,0 +1,77 @@
+body {
+    line-height: 1.5;
+    font-size: 16px;
+    background-color: #89CFF0;
+}
+
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 6% 15px 0;
+    background-color: #13293d;
+    color: #fff;
+}
+
+h1 {
+    margin: 2%;
+    font-size: 200%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 300px;
+}
+
+nav a {
+    color: #b9C6ae;
+    font-weight: bold;
+    text-decoration: none !important;
+}
+
+
+  .image {
+    float: left;
+    margin-right: 15px;
+  }
+
+  #my-work::before {
+    content: '\a';
+    white-space: pre;
+
+  }
+  .text {
+    font-size: 20px;
+    padding-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+    .AppName {
+    background-color:#06567a;
+    border:black solid 3px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 35px;
+    bottom: 20px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ 
+    .CurrentFitnessSC {
+   position: relative;
+    padding-right: 20px;   
+  }
+
+  .back{
+    border: #014585 solid 8px;
+  }
+
+  .AccessibilitySC{
+    position: relative;
+    padding-right: 20px;
+  }

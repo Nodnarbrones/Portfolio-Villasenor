@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  font-family: sans-serif;
+  margin: 0px;
+}
+
+input, select, option, optgroup, textarea, button,
+pre, code {
+  font-size: 100%;
+  font-family: inherit;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+h1 {
+  margin: 2%;
+  font-size: 200%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
